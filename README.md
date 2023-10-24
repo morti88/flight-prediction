@@ -16,9 +16,10 @@ Subsequently, the user is prompted to input values that are integral for the pre
 
 
 <p align='centre'>
-  <img src='https://github.com/morti88/flight-prediction/assets/148899179/f8a1efa0-b3ce-4854-a163-2597dad51e27'>
+  <img src='https://github.com/morti88/flight-prediction/assets/148899179/34f18844-35f0-41cb-8423-197d0d06d6ab'>
   <br>
   Figure 2 - Class Diagram
 </p>
+
 
 

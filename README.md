@@ -70,3 +70,14 @@ The "predict price" method is central to the program's objective of predicting f
 <img width="914" alt="4" src="https://github.com/morti88/flight-prediction/assets/148899179/d254b4bf-332c-48d2-b4bd-39df00634ef1">
 <img width="925" alt="5" src="https://github.com/morti88/flight-prediction/assets/148899179/701c4631-08ed-4d95-b8e5-e240e9d78ace">
 <img width="926" alt="6" src="https://github.com/morti88/flight-prediction/assets/148899179/9628a614-e58b-4050-b8a7-a9a0740ff615">
+
+
+# LOGIN
+<img width="172" alt="login_picture" src="https://github.com/morti88/flight-prediction/assets/148899179/85dcf9b3-b299-4085-8dfc-35b373ef9024">
+
+# MAIN FRAME
+<img width="244" alt="main frame" src="https://github.com/morti88/flight-prediction/assets/148899179/8cc72bfb-9e1f-4d4b-84bb-c8bceb0669bb">
+
+# DECISION TREE
+
+<img width="750" alt="decision tree" src="https://github.com/morti88/flight-prediction/assets/148899179/7b9dcb82-0053-44a5-b071-c6ddf064f0f6">

@@ -77,7 +77,7 @@ The "predict price" method is central to the program's objective of predicting f
 <img width="172" alt="login_picture" src="https://github.com/morti88/flight-prediction/assets/148899179/85dcf9b3-b299-4085-8dfc-35b373ef9024">
 
 
-# MAIN FRAME
+# MAIN WINDOW
 <img width="244" alt="main frame" src="https://github.com/morti88/flight-prediction/assets/148899179/8cc72bfb-9e1f-4d4b-84bb-c8bceb0669bb">
 
 

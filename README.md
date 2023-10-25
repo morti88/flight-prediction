@@ -26,17 +26,18 @@ Subsequently, the user is prompted to input values that are integral for the pre
 In this Python application, we are in pursuit of two distinct classes named "Prediction" and "GUI."
 
 # Graphical User Interface (GUI)
+
 <div>
-  <br>
-</div>
 <h3>Login</h3>
-The program offers a login interface for access to the primary window, which comprises two components: "Username" and "Password."
-
+  The program offers a login interface for access to the primary window, which comprises two components: "Username" and "Password."
+</div>
+<div>
 <h3>Main Window</h3>
-The primary window, denoted as "FLIGHT TICKET PRICE PREDICTION," showcases a frame encompassing an image along with five input fields, in addition to two buttons designed for initiating predictive and decision tree-related actions.
-
+  The primary window, denoted as "FLIGHT TICKET PRICE PREDICTION," showcases a frame encompassing an image along with five input fields, in addition to two buttons designed for initiating predictive and decision tree-related actions.
+</div>
 <h3>Input Fields</h3>
 There exist five input fields for the acquisition of user-supplied values, namely "Departure Time," "Class," "Airline," "Time Duration," and "Stop."
-
+<div>
 <h3>Action Buttons</h3>
-The initial button, labeled as "DECISION TREE," is embedded to provide a visual representation of the decision tree to the user. The second button, designated as "PREDICTION," facilitates the estimation of flight ticket prices based on the user-provided input values.
+  The initial button, labeled as "DECISION TREE," is embedded to provide a visual representation of the decision tree to the user. The second button, designated as "PREDICTION," facilitates the estimation of flight ticket prices based on the user-provided input values.
+</div>

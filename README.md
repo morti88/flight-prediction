@@ -61,3 +61,7 @@ The "decision tree" method creates a visual representation of the decision tree 
 
 <h3> Price Prediction via "predict price"</h3>
 The "predict price" method is central to the program's objective of predicting flight ticket prices. Users provide a DataFrame with the relevant information. The method then trains a regression model using five selected columns ('airline,' 'class,' 'departure_time,' 'duration,' and 'stops'). Finally, after inputting the user's DataFrame, the method generates a ticket price estimate.
+
+
+# SOURCE CODE
+<img width="925" alt="1" src="https://github.com/morti88/flight-prediction/assets/148899179/500429ce-910a-4796-b1cc-58abc6cf9d35">

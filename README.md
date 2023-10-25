@@ -22,8 +22,11 @@ Subsequently, the user is prompted to input values that are integral for the pre
 </p>
 
 
+
+
 # Constructing the Program
 In this Python application, we are in pursuit of two distinct classes named "Prediction" and "GUI."
+
 
 # Graphical User Interface (GUI)
 
@@ -40,6 +43,9 @@ There exist five input fields for the acquisition of user-supplied values, namel
 <div>
 <h3>Action Buttons</h3>
   The initial button, labeled as "DECISION TREE," is embedded to provide a visual representation of the decision tree to the user. The second button, designated as "PREDICTION," facilitates the estimation of flight ticket prices based on the user-provided input values.
+
+
+
 
 # Prediction Class
 The "Prediction" class is designed to predict flight ticket prices based on user input, employing an attribute called "sample" and featuring four key methods: "read data," "training data," "decision tree," and "predict price."

@@ -25,7 +25,7 @@ Subsequently, the user is prompted to input values that are integral for the pre
 # Constructing the Program
 In this Python application, we are in pursuit of two distinct classes named "Prediction" and "GUI."
 
-Graphical User Interface (GUI)
+# Graphical User Interface (GUI)
 # Login
 The program offers a login interface for access to the primary window, which comprises two components: "Username" and "Password."
 

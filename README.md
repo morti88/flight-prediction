@@ -65,3 +65,8 @@ The "predict price" method is central to the program's objective of predicting f
 
 # SOURCE CODE
 <img width="925" alt="1" src="https://github.com/morti88/flight-prediction/assets/148899179/500429ce-910a-4796-b1cc-58abc6cf9d35">
+<img width="923" alt="2" src="https://github.com/morti88/flight-prediction/assets/148899179/c6656934-b4a1-4361-aa80-f937f82d996f">
+<img width="924" alt="3" src="https://github.com/morti88/flight-prediction/assets/148899179/036b8811-4ba1-4459-9259-1ba41a69053c">
+<img width="914" alt="4" src="https://github.com/morti88/flight-prediction/assets/148899179/d254b4bf-332c-48d2-b4bd-39df00634ef1">
+<img width="925" alt="5" src="https://github.com/morti88/flight-prediction/assets/148899179/701c4631-08ed-4d95-b8e5-e240e9d78ace">
+<img width="926" alt="6" src="https://github.com/morti88/flight-prediction/assets/148899179/9628a614-e58b-4050-b8a7-a9a0740ff615">

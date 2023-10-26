@@ -67,6 +67,10 @@ The "Prediction" class is designed to predict flight ticket prices based on user
 
 <h3>Data Retrieval with "read data"</h3>
 The "read data" method extracts a clean dataset from MongoDB and converts it into a DataFrame. This conversion is essential for preparing the data for model training.
+In this stage, the program needs to convert interval data into nominal values, which makes it easier to predict using a decision tree regressor. To accomplish this, using the following code:” e = {'zero': 0, 'one': 1, 'two_or_more': 2}
+data_frame['stops'] = data_frame['stops'].map(e)”
+This code snippet maps the 'stops' data to simpler categories, aiding in the prediction process.
+
 
 <h3>Model Training through "training data"</h3>
 The "training data" method is responsible for training a machine learning model. It focuses on the dataset retrieved from MongoDB, splitting it into two essential parts: X (independent variables) and y (dependent variable). This division allows the data to be further divided into "X_train" and "y_train," which are crucial for model training.

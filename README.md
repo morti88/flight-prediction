@@ -37,6 +37,7 @@ This class has been purposefully designed to create a graphical user interface (
 Upon instantiation of an instance from the GUI class, the following code is used to generate labels, entry fields, and buttons, as elaborated in the subsequent discussion:
 
 As an illustrative example, when employing the code "self.class_airline = tk.Label(self.base, text='Class:')," a label with the text "Class:" is added to the main window. To gather user input, the program necessitates an entry field, which is established using the code "self.class_airline_entry = tk.Entry(self.base)" ,resulting in the creation of an input field within the main window. Additionally, for the precise positioning of each label and entry element, code such as "self.class_airline_entry.grid(row=2, column=1)" is implemented.
+Lastly, to create buttons with labeled descriptions and designated actions, the following code suffices: "self.predict_button = tk.Button(self.base, text='PREDICTION', command=self.result)."
 
 <div>
 <h3>Login</h3>

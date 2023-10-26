@@ -32,7 +32,13 @@ In this Python application, we are in pursuit of two distinct classes named "Pre
 
 <div>
 <h3>Login</h3>
-  The program offers a login interface for access to the primary window, which comprises two components: "Username" and "Password."
+  The program offers a login interface for access to the primary window, which comprises two components: "Username" and "Password".
+To enable this functionality, a fundamental function is essential. This function, denoted as "login," incorporates a conditional statement. This statement verifies whether users have entered the exact value "admin" as both the username and password. When this condition is satisfied, the program permits user access to the main interface. Conversely, if the condition is not met, the program generates an error message for the user.
+
+
+
+
+
 </div>
 <div>
 <h3>Main Window</h3>

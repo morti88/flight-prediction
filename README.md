@@ -26,7 +26,7 @@ Subsequently, the user is prompted to input values that are integral for the pre
 
 # Constructing the Program
 
-In the initial stage of program preparation, it is essential to ensure the availability of all necessary libraries to enable seamless execution. Some of these libraries hold critical significance, including "pandas" for the transformation of data into dataframes, "pymongo" for dataset retrieval, "matplotlib" for the generation of graphical representations, "sklearn" for the integration of linear and decision models, and lastly, "tkinter" for the development of a graphical user interface. Subsequently, the program is structured through the utilization of class-based design principles, aligning with the tenets of Object-Oriented Programming.
+In the initial stage of program preparation, it is essential to ensure the availability of all necessary libraries are imported from [1] python document to enable seamless execution. Some of these libraries hold critical significance, including "pandas" for the transformation of data into dataframes, "pymongo" for dataset retrieval, "matplotlib" for the generation of graphical representations, "sklearn" for the integration of linear and decision models, and lastly, "tkinter" for the development of a graphical user interface. Subsequently, the program is structured through the utilization of class-based design principles, aligning with the tenets of Object-Oriented Programming.
 In this Python application, we are in pursuit of two distinct classes named "Prediction" and "GUI" are elucidated as follows:
 
 
@@ -66,7 +66,7 @@ To collect user input, a code snippet such as "class_flight = self.class_airline
 The "Prediction" class is designed to predict flight ticket prices based on user input, employing an attribute called "sample" and featuring four key methods: "read data," "training data," "decision tree," and "predict price."
 
 <h3>Data Retrieval with "read data"</h3>
-The "read data" method extracts a clean dataset from MongoDB and converts it into a DataFrame. This conversion is essential for preparing the data for model training.
+The "read data" method extracts a clean dataset which was loaded from Kaggle Flight Price Prediction (2022) from MongoDB and converts it into a DataFrame. This conversion is essential for preparing the data for model training.
 In this stage, the program needs to convert interval data into nominal values, which makes it easier to predict using a decision tree regressor. To accomplish this, using the following code:” e = {'zero': 0, 'one': 1, 'two_or_more': 2}
 data_frame['stops'] = data_frame['stops'].map(e)”
 This code snippet maps the 'stops' data to simpler categories, aiding in the prediction process.
@@ -111,3 +111,12 @@ The "predict price" method is central to the program's objective of predicting f
 
 # PRICE PREDICTION RESULT
 <img width="159" alt="result" src="https://github.com/morti88/flight-prediction/assets/148899179/1e00f0cb-32be-4735-bdbe-7bd994ba48be">
+
+
+# References
+
+[1]- Python Documentation: https://docs.python.org/
+
+Kaggle. (2022). Flight Price Prediction. https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/
+
+Hahn, R. W. (2014). Airfares. In Handbook of Transport Economics (Vol. 2, pp. 1085-1109). Edward Elgar Publishing.

@@ -32,6 +32,12 @@ In this Python application, we are in pursuit of two distinct classes named "Pre
 
 # Graphical User Interface (GUI)
 
+This class has been purposefully designed to create a graphical user interface (GUI) framework for users. It encompasses an attribute named "base" and four methods: "create_login_page," "login," "demonstrate_decision_tree," and "result." The "base" attribute comprises five labels and five corresponding entry sections, each of which is associated with a specific label. Furthermore, the interface includes two buttons, each with distinct functions responsible for executing code.
+
+Upon instantiation of an instance from the GUI class, the following code is used to generate labels, entry fields, and buttons, as elaborated in the subsequent discussion:
+
+As an illustrative example, when employing the code "self.class_airline = tk.Label(self.base, text='Class:')," a label with the text "Class:" is added to the main window. To gather user input, the program necessitates an entry field, which is established using the code "self.class_airline_entry = tk.Entry(self.base)" ,resulting in the creation of an input field within the main window. Additionally, for the precise positioning of each label and entry element, code such as "self.class_airline_entry.grid(row=2, column=1)" is implemented.
+
 <div>
 <h3>Login</h3>
   The program offers a login interface for access to the primary window, which comprises two components: "Username" and "Password".

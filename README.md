@@ -71,6 +71,10 @@ The "read data" method extracts a clean dataset from MongoDB and converts it int
 <h3>Model Training through "training data"</h3>
 The "training data" method is responsible for training a machine learning model. It focuses on the dataset retrieved from MongoDB, splitting it into two essential parts: X (independent variables) and y (dependent variable). This division allows the data to be further divided into "X_train" and "y_train," which are crucial for model training.
 
+The program requires certain features for the X-axis, and it designates the price column as the target variable for the Y-axis. The chosen features are: ['airline', 'class', 'departure_time', 'duration', 'stops'].
+
+To accomplish this, the "train_test_split" method is used to divide the data into four parts: X_train, X_test, Y_train, and Y_test. In the end, the method provides a combined list containing both X_train and Y_train.
+
 <h3> Visualizing Decision Trees with "decision tree"</h3>
 The "decision tree" method creates a visual representation of the decision tree used in our predictive model. It transforms the dataset, which contains interval data, into numerical data suitable for DecisionTreeRegression. Feature selection is employed to improve the accuracy of the decision tree. Specifically, five columns ('airline,' 'class,' 'departure_time,' 'duration,' and 'stops') are chosen to train the X-axis, while 'price' serves as the y-axis. The data is split, with 80% allocated to training and the rest for testing. The method concludes by plotting the decision tree.
 

@@ -106,3 +106,6 @@ The "predict price" method is central to the program's objective of predicting f
 
 # DECISION TREE
 <img width="750" alt="decision tree" src="https://github.com/morti88/flight-prediction/assets/148899179/7b9dcb82-0053-44a5-b071-c6ddf064f0f6">
+
+# PRICE PREDICTION RESULT
+<img width="159" alt="result" src="https://github.com/morti88/flight-prediction/assets/148899179/1e00f0cb-32be-4735-bdbe-7bd994ba48be">

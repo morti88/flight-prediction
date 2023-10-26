@@ -58,7 +58,7 @@ There exist five input fields for the acquisition of user-supplied values, namel
 To collect user input, a code snippet such as "class_flight = self.class_airline_entry.get()" is required within the "result" function. This function is responsible for passing the acquired value to the "predict_price" function within the "Prediction" class. For this reason, the program necessitates an instance of the "Prediction" class, which can be instantiated with the code "predict = Prediction('sample')".This instantiation enables the program to make predictions by calling the "Prediction" class. Subsequently, by utilizing the code "messagebox.showinfo("Price Prediction", f"Predicted Price: {predicted_price[0]:.2f}")",the program can present the prediction in a messagebox.
 <div>
 <h3>Action Buttons</h3>
-  The initial button, labeled as "DECISION TREE," is embedded to provide a visual representation of the decision tree to the user. The second button, designated as "PREDICTION," facilitates the estimation of flight ticket prices based on the user-provided input values.
+  The initial button, labeled as "DECISION TREE," is embedded to provide a visual representation of the decision tree to the user.To achieve this objective, the program is required to invoke the "demonstrate_decision_tree" function through the utilization of the subsequent code: "self.decision_tree_button = tk.Button(self.base, text='DECISION TREE', command=self.demonstrate_decision_tree)".The second button, designated as "PREDICTION",facilitates the estimation of flight ticket prices based on the user-provided input values.
 
 
 

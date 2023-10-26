@@ -51,10 +51,11 @@ To enable this functionality, a fundamental function is essential. This function
 </div>
 <div>
 <h3>Main Window</h3>
-  The primary window, denoted as "FLIGHT TICKET PRICE PREDICTION," showcases a frame encompassing an image along with five input fields, in addition to two buttons designed for initiating predictive and decision tree-related actions.
+  The primary window, denoted as "FLIGHT TICKET PRICE PREDICTION" ,showcases a frame encompassing an image along with five input fields, in addition to two buttons designed for initiating predictive and decision tree-related actions.
 </div>
 <h3>Input Fields</h3>
-There exist five input fields for the acquisition of user-supplied values, namely "Departure Time," "Class," "Airline," "Time Duration," and "Stop."
+There exist five input fields for the acquisition of user-supplied values, namely "Departure Time" ,"Class" ,"Airline" ,"Time Duration" and "Stop".
+To collect user input, a code snippet such as "class_flight = self.class_airline_entry.get()" is required within the "result" function. This function is responsible for passing the acquired value to the "predict_price" function within the "Prediction" class. For this reason, the program necessitates an instance of the "Prediction" class, which can be instantiated with the code "predict = Prediction('sample')".This instantiation enables the program to make predictions by calling the "Prediction" class. Subsequently, by utilizing the code "messagebox.showinfo("Price Prediction", f"Predicted Price: {predicted_price[0]:.2f}")",the program can present the prediction in a messagebox.
 <div>
 <h3>Action Buttons</h3>
   The initial button, labeled as "DECISION TREE," is embedded to provide a visual representation of the decision tree to the user. The second button, designated as "PREDICTION," facilitates the estimation of flight ticket prices based on the user-provided input values.

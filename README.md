@@ -25,6 +25,7 @@ Subsequently, the user is prompted to input values that are integral for the pre
 
 
 # Constructing the Program
+
 In the initial stage of program preparation, it is essential to ensure the availability of all necessary libraries to enable seamless execution. Some of these libraries hold critical significance, including "pandas" for the transformation of data into dataframes, "pymongo" for dataset retrieval, "matplotlib" for the generation of graphical representations, "sklearn" for the integration of linear and decision models, and lastly, "tkinter" for the development of a graphical user interface. Subsequently, the program is structured through the utilization of class-based design principles, aligning with the tenets of Object-Oriented Programming.
 In this Python application, we are in pursuit of two distinct classes named "Prediction" and "GUI" are elucidated as follows:
 

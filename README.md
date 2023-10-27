@@ -112,6 +112,9 @@ The "predict price" method is central to the program's objective of predicting f
 # PRICE PREDICTION RESULT
 <img width="159" alt="result" src="https://github.com/morti88/flight-prediction/assets/148899179/1e00f0cb-32be-4735-bdbe-7bd994ba48be">
 
+# conclusion Point
+
+In conclusion, this study provides valuable insights and a practical tool for predicting flight ticket prices. The program's user-friendly interface, data retrieval, model training, and visualization capabilities empower users to make informed decisions in the ever-changing airfare landscape, benefiting both travelers and the aviation industry.
 
 # References
 
